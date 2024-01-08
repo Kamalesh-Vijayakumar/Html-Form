@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form class="form-control">
+        <div class="form-control">
+            <label for="name" class="lname">Name</label><br>
+            <input type="text"  placeholder="Enter your name"/><br>
+        </div>
+        <div class="form-control">
+            <label for="email" class="lemail">e-mail</label><br>
+            <input type="email" placeholder="Enter your email"/><br>
+        </div>
+        <div class="form-control">
+            <label for="age">Age</label><br>
+            <input type="text" placeholder="Enter your age"/>
+        </div>
+        <div class="form-control">
+                <label for="dropdown">Select your option</label><br>
+                <select name="dropdown" id="none">
+                    <option value="student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="professional">professional</option>
+                </select>
+        </div><br>
+        <div class="form-control">
+            <label for="Survey">Will you refer us to your friend ?</label><br>
+            <label for="yes"><input type="radio">Yes</label><br>
+            <label for="no"><input type="radio">No</label><br>
+            <label for="Maybe"><input type="radio">Maybe</label><br>
+        </div><br>
+
+        <div class="form-control">
+            <label for="skills">Select your skills</label><br>
+                <label><input type="checkbox">C</label><br>
+                <label><input type="checkbox">C++</label><br>
+                <label><input type="checkbox">Java</label><br>
+                <label><input type="checkbox">C</label><br>
+                <label><input type="checkbox">JavaScript</label><br>
+                <label><input type="checkbox">Django</label><br>
+        </div><br>
+
+        <div class="textarea">
+            <label>Feedback</label><br>
+            <textarea name="text" placeholder="your comments!!!"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
